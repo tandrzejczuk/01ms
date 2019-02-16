@@ -52,10 +52,31 @@ table {
 
 /* Nagłówek strony */
 
-.logo {
-    float: left;
+.top {
+	height: 100px;
+	background-color: #e3e3e3;
+
 }
 
+.logo {
+	float: left;
+	padding: 10px;
+}
+
+  
 .main-menu {
 	float: right;
+	font-size: 24px;
+}
+
+.top a {
+	color: #000000;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.main-menu li {
+	float: left;
+	line-height: 100px;
+	padding: 0 20px;
 }
